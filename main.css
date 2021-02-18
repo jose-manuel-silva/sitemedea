@@ -1,0 +1,100 @@
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    position: relative
+}
+
+.inicio {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 250px;
+    min-height: 250px;
+    background-color: rgb(43, 45, 47);
+}
+
+.imagem-escola {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    animation-name: up;
+    animation-duration: 1300ms;
+    animation-fill-mode: forwards;
+    animation-delay: 1700ms;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    font-size: 3.5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.subtitulo {
+    opacity: 0;
+    animation-name: show;
+    animation-duration: 2500ms;
+    animation-fill-mode: forwards;
+    animation-delay: 2000ms;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    font-size: 2rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#os {
+    animation: slide-left 4s cubic-bezier(0.15, 1.18, 0.65, 1.43)
+}
+
+#magneticos {
+    animation: slide-right 4s cubic-bezier(0.15, 1.18, 0.65, 1.43)
+}
+
+@keyframes slide-left {
+    from {
+        padding-right: 10000px;
+    }
+    to {}
+}
+
+@keyframes slide-right {
+    from {
+        padding-left: 10000px;
+    }
+    to {}
+}
+
+@keyframes up {
+    from {
+        top: 50%;
+    }
+    to {
+        top: 42%;
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
