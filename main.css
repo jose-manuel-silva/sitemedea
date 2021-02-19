@@ -28,6 +28,40 @@ body {
     object-fit: cover;
 }
 
+.imgemperfil {
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+}
+
+.quemsomos {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(43, 45, 47);
+}
+
+.quemsomossubtitulo {
+    padding-top: 3rem;
+}
+
+.corpogrelha {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.grelha {
+    width: 90%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10rem 10rem;
+}
+
 .title {
     animation-name: up;
     animation-duration: 1300ms;
