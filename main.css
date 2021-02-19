@@ -79,6 +79,8 @@ body {
 
 .quemsomossubtitulo {
     padding-top: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .corpogrelha {
@@ -131,7 +133,7 @@ body {
     transform: translate(-50%, -50%);
     margin: 0 auto;
     margin-top: 20px;
-    font-size: calc(12px + 1vw);
+    font-size: calc(15px + 1vw);
     white-space: nowrap;
     text-overflow: ellipsis;
 }
