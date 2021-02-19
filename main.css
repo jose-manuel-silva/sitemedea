@@ -18,6 +18,40 @@ body {
     background-color: rgb(43, 45, 47);
 }
 
+.nossastora {
+    background-color: rgb(43, 45, 47);
+    color: white;
+}
+
+.nossastoracorpo {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem 5rem;
+}
+
+.nsimg {
+    float: left;
+    margin-bottom: unset !important;
+}
+
+.nstitle {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.netitle {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
 .imagem-escola {
     filter: blur(5px);
     -webkit-filter: blur(5px);
@@ -32,6 +66,7 @@ body {
     width: 13rem;
     height: 13rem;
     object-fit: cover;
+    margin-bottom: 2rem;
 }
 
 .quemsomos {
@@ -47,6 +82,8 @@ body {
 }
 
 .corpogrelha {
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 6rem;
     padding-bottom: 6rem;
     display: flex;
@@ -54,12 +91,17 @@ body {
 }
 
 .grelha {
+    text-align: center;
     width: 90%;
     height: auto;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 10rem 10rem;
+}
+
+.grelhatexto {
+    text-align: initial;
 }
 
 .title {
