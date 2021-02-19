@@ -23,6 +23,10 @@ body {
     color: white;
 }
 
+.box {
+    align-self: baseline;
+}
+
 .nossastoracorpo {
     margin-left: 10%;
     margin-right: 10%;
@@ -104,6 +108,11 @@ body {
 
 .grelhatexto {
     text-align: initial;
+}
+
+.grelhatextod {
+    text-align: initial;
+    font-weight: 300;
 }
 
 .title {
