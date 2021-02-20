@@ -1,6 +1,12 @@
+#wrapper {
+    overflow-x: hidden;
+    height: 100%;
+}
+
 html,
 body {
-    overflow-x: hidden;
+    height: 100vh;
+    min-height: 100% !important;
 }
 
 .main {

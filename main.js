@@ -24,7 +24,9 @@ $(window).on("load", function() {
     }
 
     fade(true); //fade elements on page-load
-    $(window).scroll(function() {
+    var objTable = document.getElementById("wrapper");
+
+    window.addEventListener("scroll", function() {
         fade(false);
-    }); //fade elements on scroll
+    }, true); //fade elements on scroll
 });
