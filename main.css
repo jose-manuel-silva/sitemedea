@@ -1,7 +1,6 @@
 html,
 body {
     overflow-x: hidden;
-    height: 100%;
 }
 
 .main {
@@ -71,6 +70,7 @@ body {
     height: 13rem;
     object-fit: cover;
     margin-bottom: 2rem;
+    transition: transform 1s;
 }
 
 .quemsomos {
@@ -88,22 +88,28 @@ body {
 }
 
 .corpogrelha {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
     display: flex;
     justify-content: center;
 }
 
 .grelha {
     text-align: center;
-    width: 90%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     height: auto;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 10rem 10rem;
+    background: linear-gradient(to right, black 6px, transparent 6px) 0 100%, linear-gradient(to left, black 6px, transparent 6px) 100% 0, linear-gradient(to bottom, black 6px, transparent 6px) 100% 0, linear-gradient(to top, black 6px, transparent 6px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 80px 50px;
 }
 
 .grelhatexto {
@@ -145,6 +151,10 @@ body {
     font-size: calc(15px + 1vw);
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.imgemperfil:hover {
+    transform: scale(1.15);
 }
 
 #os {
