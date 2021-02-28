@@ -127,6 +127,11 @@ body {
     font-weight: 300;
 }
 
+.storadesc {
+    text-align: justify;
+    font-weight: 300;
+}
+
 .title {
     animation-name: up;
     animation-duration: 1300ms;
