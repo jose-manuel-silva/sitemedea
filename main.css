@@ -1,209 +1,196 @@
-#wrapper {
-    overflow-x: hidden;
-    height: 100%;
-}
-
-html,
-body {
-    height: 100vh;
-    min-height: 100% !important;
-}
-
-.main {
-    height: 100%;
-    position: relative
-}
-
 .inicio {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    min-width: 250px;
-    min-height: 250px;
-    background-color: rgb(43, 45, 47);
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-width: 250px;
+  min-height: 250px;
+  background-color: rgb(43, 45, 47);
 }
 
 .nossastora {
-    background-color: rgb(43, 45, 47);
-    color: white;
+  background-color: rgb(43, 45, 47);
+  color: white;
 }
 
 .box {
-    align-self: baseline;
+  align-self: baseline;
 }
 
 .nossastoracorpo {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5rem 5rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem 5rem;
 }
 
 .nsimg {
-    float: left;
-    margin-bottom: unset !important;
+  float: left;
+  margin-bottom: unset !important;
 }
 
 .nstitle {
-    padding-top: 4rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
 }
 
 .netitle {
-    padding-top: 4rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
 }
 
 .imagem-escola {
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .imgemperfil {
-    width: 13rem;
-    height: 13rem;
-    object-fit: cover;
-    margin-bottom: 2rem;
-    transition: transform 1s;
+  width: 13rem;
+  height: 13rem;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  transition: transform 1s;
 }
 
 .quemsomos {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    text-align: center;
-    color: white;
-    background-color: rgb(43, 45, 47);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  color: white;
+  background-color: rgb(43, 45, 47);
 }
 
 .quemsomossubtitulo {
-    padding-top: 3rem;
-    margin-left: 10%;
-    margin-right: 10%;
+  padding-top: 3rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .corpogrelha {
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
-    display: flex;
-    justify-content: center;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: center;
 }
 
 .grelha {
-    text-align: center;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    height: auto;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 10rem 10rem;
-    background: linear-gradient(to right, black 6px, transparent 6px) 0 100%, linear-gradient(to left, black 6px, transparent 6px) 100% 0, linear-gradient(to bottom, black 6px, transparent 6px) 100% 0, linear-gradient(to top, black 6px, transparent 6px) 0 100%;
-    background-repeat: no-repeat;
-    background-size: 80px 50px;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  height: auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10rem 10rem;
+  background: linear-gradient(to right, black 6px, transparent 6px) 0 100%, linear-gradient(to left, black 6px, transparent 6px) 100% 0, linear-gradient(to bottom, black 6px, transparent 6px) 100% 0, linear-gradient(to top, black 6px, transparent 6px) 0 100%;
+  background-repeat: no-repeat;
+  background-size: 80px 50px;
 }
 
 .grelhatexto {
-    text-align: justify;
+  text-align: justify;
 }
 
 .grelhatextod {
-    text-align: justify;
-    font-weight: 300;
+  text-align: justify;
+  font-weight: 300;
 }
 
 .storadesc {
-    text-align: justify;
-    font-weight: 300;
+  text-align: justify;
+  font-weight: 300;
 }
 
 .title {
-    animation-name: up;
-    animation-duration: 1300ms;
-    animation-fill-mode: forwards;
-    animation-delay: 1700ms;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    font-size: calc(40px + 1vw);
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  animation-name: up;
+  animation-duration: 1300ms;
+  animation-fill-mode: forwards;
+  animation-delay: 1700ms;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  font-size: calc(40px + 1vw);
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .subtitulo {
-    opacity: 0;
-    animation-name: show;
-    animation-duration: 2500ms;
-    animation-fill-mode: forwards;
-    animation-delay: 2000ms;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    margin-top: 20px;
-    font-size: calc(15px + 1vw);
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 2500ms;
+  animation-fill-mode: forwards;
+  animation-delay: 2000ms;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: calc(15px + 1vw);
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .imgemperfil:hover {
-    transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 #os {
-    animation: slide-left 4s cubic-bezier(0.15, 1.18, 0.65, 1.43)
+  animation: slide-left 4s cubic-bezier(0.15, 1.18, 0.65, 1.43);
 }
 
 #magneticos {
-    animation: slide-right 4s cubic-bezier(0.15, 1.18, 0.65, 1.43)
+  animation: slide-right 4s cubic-bezier(0.15, 1.18, 0.65, 1.43);
 }
 
 @keyframes slide-left {
-    from {
-        padding-right: 10000px;
-    }
-    to {}
+  from {
+    padding-right: 10000px;
+  }
+  to {
+  }
 }
 
 @keyframes slide-right {
-    from {
-        padding-left: 10000px;
-    }
-    to {}
+  from {
+    padding-left: 10000px;
+  }
+  to {
+  }
 }
 
 @keyframes up {
-    from {
-        top: 50%;
-    }
-    to {
-        top: 42%;
-    }
+  from {
+    top: 50%;
+  }
+  to {
+    top: 42%;
+  }
 }
 
 @keyframes show {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
