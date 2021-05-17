@@ -8,7 +8,8 @@
   background-color: rgb(43, 45, 47);
 }
 
-.nossastora {
+.nossastora,
+.relatorio-formal {
   background-color: rgb(43, 45, 47);
   color: white;
 }
@@ -17,7 +18,8 @@
   align-self: baseline;
 }
 
-.nossastoracorpo {
+.nossastoracorpo,
+.rf-corpo {
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 5rem;
@@ -34,12 +36,8 @@
   margin-bottom: unset !important;
 }
 
-.nstitle {
-  padding-top: 4rem;
-  padding-bottom: 1.5rem;
-  text-align: center;
-}
-
+.nstitle,
+.rf-title,
 .netitle {
   padding-top: 4rem;
   padding-bottom: 1.5rem;
