@@ -166,6 +166,26 @@
   max-width: 100%;
 }
 
+.videoembed {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  width: auto;
+  display: block;
+}
+
+.video {
+  left: 0;
+  height: 100%;
+  position: center;
+  width: auto ;
+  display: block;
+  background-color: rgb(43, 45, 47);
+  background-size: 100% 100%;
+  background-color: rgb(43, 45, 47);
+  color: rgb(43, 45, 47);
+}
+
 #os {
   animation: slide-left 4s cubic-bezier(0.15, 1.18, 0.65, 1.43);
 }
