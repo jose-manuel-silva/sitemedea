@@ -38,7 +38,9 @@
 
 .nstitle,
 .rf-title,
-.netitle {
+.netitle,
+.vd-title,
+.ct-title {
   padding-top: 4rem;
   padding-bottom: 1.5rem;
   text-align: center;
@@ -51,7 +53,6 @@
   max-height: 100%;
   width: 100%;
   height: 100%;
-  width: u;
   object-fit: cover;
 }
 
@@ -111,6 +112,11 @@
   font-weight: 300;
 }
 
+.todos {
+  width: 100%;
+  max-width: 100%;
+}
+
 .storadesc {
   text-align: justify;
   font-weight: 300;
@@ -159,21 +165,28 @@
   max-width: 100%;
 }
 
+.cartaz {
+  background-color: #c9eafb;
+}
+
 .cartaz-img {
-  background-color: rgb(43, 45, 47);
-  padding-top: 5rem;
+  padding-top: 1rem;
   width: 100vw;
   max-width: 100%;
 }
 
-.videoembed {
+.video {
   background-color: rgb(43, 45, 47);
-  padding-top: 5rem;
-  left: 0;
+}
+
+.vd-title {
+  color: white;
+}
+
+.videoembed {
+  padding-top: 1.5rem;
   height: 100%;
-  position: absolute;
   width: 100%;
-  display: block;
 }
 
 #os {
